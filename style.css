@@ -65,10 +65,11 @@
     height: 4.5vw;
   }
   #nav h4 {
-    text-transform: uppercase;
-    font-weight: 500;
-    cursor: pointer;
-    font-size: 1.15vw;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 1.15vw;
+  transition: color 0.3s ease;
   }
   video {
     height: 100%;
@@ -440,3 +441,18 @@
     line-height: 20px;
     margin-bottom: 8px;
   }
+
+  #nav h4:hover {
+  color: #95C11E;
+  }
+
+  #nav h4 a {
+  text-decoration: none;
+  color: inherit;
+  }
+
+  #nav h4 a:hover {
+  color: #95C11E;
+  }
+
+  /* trigger bot */
